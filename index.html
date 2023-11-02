@@ -9,7 +9,7 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -19,7 +19,15 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">Local Volume Complete Cluster Survey (LoVoCCS)</a>
+
+<!--                    <a class="navbar-brand" href="index.html">-->
+<!--                        <img src="assets/logo.png" class="rounded d-inline-block align-middle" alt="The Local Volume Complete Cluster Survey logo" height=35> LoVoCCS-->
+<!--                    </a>-->
+                    <a class="navbar-brand" href="index.html">
+                      <img src="assets/favicon.ico" alt="The Local Volume Complete Cluster Survey logo" height="35" class="rounded d-inline-block align-text-middle">
+                      LoVoCCS
+                    </a>
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -27,8 +35,8 @@
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownProjects" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProjects">
                                     <li><a class="dropdown-item" href="weak_lensing.html">Weak-Lensing</a></li>
                                     <li><a class="dropdown-item" href="xray.html">X-ray</a></li>
                                     <li><a class="dropdown-item" href="sz.html">Sunyaev-Zel'dovich</a></li>
@@ -38,8 +46,8 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">People</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPeople" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">People</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPeople">
                                     <li><a class="dropdown-item" href="people.html#faculty">Faculty</a></li>
                                     <li><a class="dropdown-item" href="people.html#postdoc">Postdocs</a></li>
                                     <li><a class="dropdown-item" href="people.html#phd">PhD Students</a></li>
@@ -49,8 +57,8 @@
                             <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Data Access</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownData" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Data Access</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownData">
                                     <li><a class="dropdown-item" href="cat_output.html">Catalogues/Outputs</a></li>
                                     <li><a class="dropdown-item" href="raw_data.html">Raw Data</a></li>
                                 </ul>
@@ -62,88 +70,130 @@
                     </div>
                 </div>
             </nav>
+
             <!-- Header-->
-            <header class="bg-dark py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 align-items-center justify-content-center">
-                        <div class="col-lg-8 col-xl-7 col-xxl-6">
-                            <div class="my-5 text-center text-xl-start">
-                                <h1 class="display-5 fw-bolder text-white mb-2">A Bootstrap 5 template for modern businesses</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+<!--            <header class="bg-dark py-5">-->
+            <header class="bg-dark">
+<!--                <h1 class="display-5 fw-bolder text-white mb-2">A Bootstrap 5 template for modern businesses</h1>-->
+
+                <div class="bg-image" style="background-image: url('assets/pretty/A3158_44-77_irg.png');
+                                     background-position: 50% 53%;
+                                     height: 45vh;">
+
+                    <div class="container d-flex align-items-center justify-content-center text-center h-100">
+                      <div class="text-white fst-italic fst-bolder">
+                        <h1 class="mb-3">The Local Volume Complete Cluster Survey</h1>
+<!--                        <h5 class="mb-4">Best & free guide of responsive web design</h5>-->
+<!--                        <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button"-->
+<!--                          rel="nofollow" target="_blank">Start tutorial</a>-->
+<!--                        <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"-->
+<!--                          role="button">Download MDB UI KIT</a>-->
+                      </div>
                     </div>
+
                 </div>
+
+<!--                        <div class="col-lg-8 col-xl-7 col-xxl-6">-->
+<!--                            <div class="my-5 text-center text-xl-start">-->
+<!--                                -->
+<!--                                <p class="lead fw-normal text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>-->
+<!--                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">-->
+<!--                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>-->
+<!--                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                </div>-->
+
+
+
+<!--                <div class="my-5 text-center text-xl-start">-->
+<!--                    <h1 class="display-5 fw-bolder text-white mb-2">A Bootstrap 5 template for modern businesses</h1>-->
+<!--                    <p class="lead fw-normal text-white-50 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>-->
+<!--                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">-->
+<!--                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>-->
+<!--                        <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+
             </header>
+
             <!-- Features section-->
             <section class="py-5" id="features">
-                <div class="container px-5 my-5">
+                <div class="container px-5 my-1">
                     <div class="row gx-5">
-                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">A better way to start building.</h2></div>
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h4 class="mb-0 text-center">LoVoCCS is an unprecedented cluster weak-lensing survey, creating 2D mass maps for over 100 local systems. <br><br> We are contributing to cosmology and astrophysics research, and are a precursor project for the Legacy Survey of Space and Time (LSST)!</h4></div>
                         <div class="col-lg-8">
+
                             <div class="row gx-5 row-cols-1 row-cols-md-2">
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                <div class="col mb-4 h-100">
+                                    <a href="publications.html" style="text-decoration:none">
+                                        <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3" style="background-color: #478591 !important;"><i class="bi bi-journal-text"></i></div><span class="mx-2 h5 d-inline-block text-dark">Publications</span>
+                                    </a>
+                                    <p class="mb-0">Take a look at some of the publications that have made use of LoVoCCS data! We have a wide range of scientific interests, and there will be many more papers to come.</p>
                                 </div>
-                                <div class="col mb-5 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+
+                                <div class="col mb-4 h-100">
+                                    <a href="research.html" style="text-decoration:none">
+                                        <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3" style="background-color: #478591 !important;"><i class="bi bi-grid"></i></div><span class="mx-2 h5 d-inline-block text-dark">Research Projects</span>
+                                    </a>
+                                    <p class="mb-0">Explore the multi-wavelength galaxy cluster research projects we're undertaking. Different types of observations tell us different things about our sample.</p>
                                 </div>
-                                <div class="col mb-5 mb-md-0 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+
+                                <div class="col mb-3 mb-md-0 h-100">
+                                    <a href="publications.html" style="text-decoration:none">
+                                        <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3" style="background-color: #478591 !important;"><i class="bi bi-device-hdd"></i></div><span class="mx-2 h5 d-inline-block text-dark">Data Access</span>
+                                    </a>
+                                    <p class="mb-0">See the data and results that we have made available. Catalogues and research outputs are version controlled and made available on GitHub.</p>
                                 </div>
-                                <div class="col h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+
+                                <div class="col mb-3 h-100">
+                                    <a href="people.html" style="text-decoration:none">
+                                        <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3" style="background-color: #478591 !important;"><i class="bi bi-people"></i></div><span class="mx-2 h5 d-inline-block text-dark">Collaboration Members</span>
+                                    </a>
+                                    <p class="mb-0">Meet the members of the collaboration, and follow the links to learn more about them and their particular research interests.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Testimonial section-->
-            <div class="py-5 bg-light">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-10 col-xl-7">
-                            <div class="text-center">
-                                <div class="fs-4 mb-4 fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</div>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                    <div class="fw-bold">
-                                        Tom Ato
-                                        <span class="fw-bold text-primary mx-1">/</span>
-                                        CEO, Pomodoro
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Blog preview section-->
-            <section class="py-5">
-                <div class="container px-5 my-5">
+
+<!--            &lt;!&ndash; Testimonial section&ndash;&gt;-->
+<!--            <div class="py-5 bg-light">-->
+<!--                <div class="container px-5 my-5">-->
+<!--                    <div class="row gx-5 justify-content-center">-->
+<!--                        <div class="col-lg-10 col-xl-7">-->
+<!--                            <div class="text-center">-->
+<!--                                <div class="fs-4 mb-4 fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</div>-->
+<!--                                <div class="d-flex align-items-center justify-content-center">-->
+<!--                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />-->
+<!--                                    <div class="fw-bold">-->
+<!--                                        Tom Ato-->
+<!--                                        <span class="fw-bold text-primary mx-1">/</span>-->
+<!--                                        CEO, Pomodoro-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <!-- Announcement preview section-->
+            <section class="py-3 bg-light">
+                <div class="container px-5 my-4">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
-                                <h2 class="fw-bolder">From our blog</h2>
-                                <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
+                                <h2 class="fw-bolder">Recent Announcements</h2>
+                                <p class="lead fw-normal text-muted mb-5">Here we will try to highlight recent announcements and releases from the LoVoCCS collaboration</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="row gx-5">
+
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
@@ -152,19 +202,10 @@
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Blog post title</h5></a>
                                     <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
-                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    <div class="d-flex align-items-end justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                            <div class="small">
-                                                <div class="fw-bold">Kelly Rowan</div>
-                                                <div class="text-muted">March 12, 2023 &middot; 6 min read</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
+
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
@@ -173,19 +214,9 @@
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
                                     <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
-                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    <div class="d-flex align-items-end justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                            <div class="small">
-                                                <div class="fw-bold">Josiah Barclay</div>
-                                                <div class="text-muted">March 23, 2023 &middot; 4 min read</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
@@ -194,36 +225,11 @@
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">The last blog post title is a little bit longer than the others</h5></a>
                                     <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
-                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    <div class="d-flex align-items-end justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                            <div class="small">
-                                                <div class="fw-bold">Evelyn Martinez</div>
-                                                <div class="text-muted">April 2, 2023 &middot; 10 min read</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+
                     </div>
-                    <!-- Call to action-->
-                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-                            <div class="mb-4 mb-xl-0">
-                                <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
-                                <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
-                            </div>
-                            <div class="ms-xl-4">
-                                <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
-                                </div>
-                                <div class="small text-white-50">We care about privacy, and will never share your data.</div>
-                            </div>
-                        </div>
-                    </aside>
+
                 </div>
             </section>
         </main>
@@ -241,3 +247,16 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+<!--This was the card footers-->
+<!--                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">-->
+<!--                                    <div class="d-flex align-items-end justify-content-between">-->
+<!--                                        <div class="d-flex align-items-center">-->
+<!--                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />-->
+<!--                                            <div class="small">-->
+<!--                                                <div class="fw-bold">Kelly Rowan</div>-->
+<!--                                                <div class="text-muted">March 12, 2023 &middot; 6 min read</div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
