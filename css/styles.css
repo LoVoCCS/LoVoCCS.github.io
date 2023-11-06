@@ -10846,3 +10846,11 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02)
+}

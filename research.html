@@ -34,8 +34,9 @@
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownProjects" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProjects">
+                                    <li><a class="dropdown-item" href="clusters.html">Galaxy Clusters</a></li>
                                     <li><a class="dropdown-item" href="weak_lensing.html">Weak-Lensing</a></li>
                                     <li><a class="dropdown-item" href="xray.html">X-ray</a></li>
                                     <li><a class="dropdown-item" href="sz.html">Sunyaev-Zel'dovich</a></li>
@@ -45,8 +46,8 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">People</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPeople" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">People</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPeople">
                                     <li><a class="dropdown-item" href="people.html#faculty">Faculty</a></li>
                                     <li><a class="dropdown-item" href="people.html#postdoc">Postdocs</a></li>
                                     <li><a class="dropdown-item" href="people.html#phd">PhD Students</a></li>
@@ -56,8 +57,8 @@
                             <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Data Access</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownData" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Data Access</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownData">
                                     <li><a class="dropdown-item" href="cat_output.html">Catalogues/Outputs</a></li>
                                     <li><a class="dropdown-item" href="raw_data.html">Raw Data</a></li>
                                 </ul>
@@ -69,159 +70,66 @@
                     </div>
                 </div>
             </nav>
-            <!-- Pricing section-->
-            <section class="bg-light py-5">
-                <div class="container px-5 my-5">
-                    <div class="text-center mb-5">
-                        <h1 class="fw-bolder">Pay as you grow</h1>
-                        <p class="lead fw-normal text-muted mb-0">With our no hassle pricing plans</p>
+
+            <!-- Research project card section-->
+            <section class="bg-light py-1">
+                <div class="container px-5 my-2">
+                    <div class="text-center mb-4">
+                        <h1 class="fw-bolder">Explore our research</h1>
                     </div>
+
+                    <!-- Top row is just for cluster card -->
+                    <div class="row gx-5 justify-content-center mb-3">
+                        <div class="col-lg-6 col-xl-6">
+                            <a href="clusters.html" style="text-decoration:none">
+                                <div class="card mb-1 mb-xl-0 shadow rounded-4">
+                                    <img class="card-img-top rounded-4" src="assets/card_ims/A3158_44-77_irg_crop.png" alt="..." />
+                                    <div class="card-body p-3">
+                                        <div class="text-uppercase fw-bold text-muted h3 text-center">Galaxy Clusters</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
                     <div class="row gx-5 justify-content-center">
-                        <!-- Pricing card free-->
+
+                        <!-- Weak Lensing Card-->
                         <div class="col-lg-6 col-xl-4">
-                            <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
-                                    <div class="small text-uppercase fw-bold text-muted">Free</div>
-                                    <div class="mb-3">
-                                        <span class="display-4 fw-bold">$0</span>
-                                        <span class="text-muted">/ mo.</span>
+                            <a href="weak_lensing.html" style="text-decoration:none">
+                                <div class="card mb-1 mb-xl-0 shadow rounded-4">
+                                    <img class="card-img-top rounded-4" src="assets/card_ims/opt_massmap_crop.jpeg" alt="..." />
+                                    <div class="card-body p-3">
+                                        <div class="text-uppercase fw-bold text-muted h3 text-center">Weak Lensing</div>
                                     </div>
-                                    <ul class="list-unstyled mb-4">
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            <strong>1 users</strong>
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            5GB storage
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited public projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Community access
-                                        </li>
-                                        <li class="mb-2 text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Unlimited private projects
-                                        </li>
-                                        <li class="mb-2 text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Dedicated support
-                                        </li>
-                                        <li class="mb-2 text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Free linked domain
-                                        </li>
-                                        <li class="text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Monthly status reports
-                                        </li>
-                                    </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <!-- Pricing card pro-->
+
+                        <!-- X-ray Card-->
                         <div class="col-lg-6 col-xl-4">
-                            <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
-                                    <div class="small text-uppercase fw-bold">
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        Pro
+                            <a href="xray.html" style="text-decoration:none">
+                                <div class="card mb-1 mb-xl-0 shadow rounded-4">
+                                    <img class="card-img-top rounded-4" src="assets/card_ims/opt_xray_cluster_crop.png" alt="..." />
+                                    <div class="card-body p-3">
+                                        <div class="text-uppercase fw-bold text-muted h3 text-center">X-ray</div>
                                     </div>
-                                    <div class="mb-3">
-                                        <span class="display-4 fw-bold">$9</span>
-                                        <span class="text-muted">/ mo.</span>
-                                    </div>
-                                    <ul class="list-unstyled mb-4">
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            <strong>5 users</strong>
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            5GB storage
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited public projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Community access
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited private projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Dedicated support
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Free linked domain
-                                        </li>
-                                        <li class="text-muted">
-                                            <i class="bi bi-x"></i>
-                                            Monthly status reports
-                                        </li>
-                                    </ul>
-                                    <div class="d-grid"><a class="btn btn-primary" href="#!">Choose plan</a></div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <!-- Pricing card enterprise-->
+
+                        <!-- SZ Card-->
                         <div class="col-lg-6 col-xl-4">
-                            <div class="card">
-                                <div class="card-body p-5">
-                                    <div class="small text-uppercase fw-bold text-muted">Enterprise</div>
-                                    <div class="mb-3">
-                                        <span class="display-4 fw-bold">$49</span>
-                                        <span class="text-muted">/ mo.</span>
+                            <a href="sz.html" style="text-decoration:none">
+                                <div class="card mb-1 mb-xl-0 shadow rounded-4">
+                                    <img class="card-img-top rounded-4" src="assets/card_ims/sz_map_crop.png" alt="..." />
+                                    <div class="card-body p-3">
+                                        <div class="text-uppercase fw-bold text-muted h3 text-center">Sunyaev-Zel'dovich</div>
                                     </div>
-                                    <ul class="list-unstyled mb-4">
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            <strong>Unlimited users</strong>
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            5GB storage
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited public projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Community access
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Unlimited private projects
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Dedicated support
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi bi-check text-primary"></i>
-                                            <strong>Unlimited</strong>
-                                            linked domains
-                                        </li>
-                                        <li class="text-muted">
-                                            <i class="bi bi-check text-primary"></i>
-                                            Monthly status reports
-                                        </li>
-                                    </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -247,3 +155,53 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+
+<!--This was an original card entry (apart from the fact I added a shadow), just for my future reference-->
+<!--<div class="col-lg-6 col-xl-4">-->
+<!--    <div class="card mb-5 mb-xl-0 shadow">-->
+<!--        <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />-->
+<!--        <div class="card-body p-5">-->
+<!--            <div class="small text-uppercase fw-bold text-muted">Free</div>-->
+<!--            <div class="mb-3">-->
+<!--                <span class="display-4 fw-bold">$0</span>-->
+<!--                <span class="text-muted">/ mo.</span>-->
+<!--            </div>-->
+<!--            <ul class="list-unstyled mb-4">-->
+<!--                <li class="mb-2">-->
+<!--                    <i class="bi bi-check text-primary"></i>-->
+<!--                    <strong>1 users</strong>-->
+<!--                </li>-->
+<!--                <li class="mb-2">-->
+<!--                    <i class="bi bi-check text-primary"></i>-->
+<!--                    5GB storage-->
+<!--                </li>-->
+<!--                <li class="mb-2">-->
+<!--                    <i class="bi bi-check text-primary"></i>-->
+<!--                    Unlimited public projects-->
+<!--                </li>-->
+<!--                <li class="mb-2">-->
+<!--                    <i class="bi bi-check text-primary"></i>-->
+<!--                    Community access-->
+<!--                </li>-->
+<!--                <li class="mb-2 text-muted">-->
+<!--                    <i class="bi bi-x"></i>-->
+<!--                    Unlimited private projects-->
+<!--                </li>-->
+<!--                <li class="mb-2 text-muted">-->
+<!--                    <i class="bi bi-x"></i>-->
+<!--                    Dedicated support-->
+<!--                </li>-->
+<!--                <li class="mb-2 text-muted">-->
+<!--                    <i class="bi bi-x"></i>-->
+<!--                    Free linked domain-->
+<!--                </li>-->
+<!--                <li class="text-muted">-->
+<!--                    <i class="bi bi-x"></i>-->
+<!--                    Monthly status reports-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--            <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
